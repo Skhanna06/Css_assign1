@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<head>
+<title>Student-Registration</title>
+<link rel="stylesheet" type="text/css" href="styling.css">
+</head>
+<body >
+
+    <div id="header">
+        Student Registration Form
+    </div>
+
+    <div class="cntnt">
+    
+      <form action="">
+          <label for="name">Name : </label>
+          <input type="text",id="name",name="name">
+          <br><br>
+          <label for="phone">Phone No. : </label>
+          <input type="number",id="phone",name="phone">
+          <br><br>
+          <label for="email">Email id : </label>
+          <input type="email",id="email",name="email">
+          <br><br>
+          <label for="password">Password : </label>
+          <input type="password",id="password",name="password">
+          <br><br>
+          <label for="dob">Date Of Birth : </label>
+          <input type="date",id="dob",name="dob">
+          <br><br>
+          <div>
+          <label class="add1" for="address">Address : </label>
+          <textarea class="add2" type="text",name="address" , rows="5" , cols="30"></textarea>
+          </div>
+          <br><br>
+          <label for="gender">Gender : </label>
+          
+          <input type="radio",id="male",name="male",value="Male">
+          <label for="male"> Male</label>
+          <input type="radio",id="female",name="female",value="Female">
+          <label for="female"> Female</label>
+          <br><br>
+          <label for="city">City : </label>
+          <select id="city" , name="city">
+              <option value="selectcity">Select City</option>
+              <option value="Ghaziabad">Ghaziabad</option>
+              <option value="Gurugram">Gurugram</option>
+              <option value="Delhi">Delhi</option>
+              <option value="Noida">Noida</option>
+          </select>
+            <br><br>
+            
+              <label class="hobbies" for="hobbies">Hobbies : </label>
+              <div class="ch">
+                <input type="checkbox" id="music" name="music" value="Music">
+                <label for="music">Music</label><br>
+                <input type="checkbox" id="sports" name="sports" value="Sports">
+                <label for="sports">Sports</label><br>
+                <input type="checkbox" id="reading" name="reading" value="Reading">
+                <label for="reading">Reading</label><br>
+                <input type="checkbox" id="travelling" name="travelling" value="travelling">
+                <label for="travelling">Travelling</label><br>
+                <input type="checkbox" id="guitar" name="guitar" value="guitar">
+                <label for="guitar">Guitar</label>
+              </div>
+              <br><br>
+              <input class="submit" type="submit">
+              
+              <input class="reset" type="reset"> 
+              
+      </form>
+      <h2>Student Records</h2>
+        <table id="table">
+            <tr>
+                <th>S No.</th>
+                <th>Name</th>
+                <th>Phone No.</th>
+                <th>Gender</th>
+                <th>DOB</th>
+                <th>Hobbies</th>
+            </tr>
+            <tr>
+                <td rowspan="3">1</td>
+                <td rowspan="3">Akash</td>
+                <td rowspan="3">9793445116</td>
+                <td rowspan="3">Male</td>
+                <td rowspan="3">12/02/1998</td>
+                <td>Music</td>
+            </tr>
+            <tr>
+                <td>Dance</td>
+            </tr>
+            <tr>
+                <td>Cooking</td>
+            </tr>
+            <tr>
+                <td rowspan="3">2</td>
+                <td rowspan="3">Shyam</td>
+                <td rowspan="3">7867905434</td>
+                <td rowspan="3">Male</td>
+                <td rowspan="3">21/09/1999</td>
+                <td>Dance</td>
+                <tr>
+                    <td>Travel</td>
+                </tr>
+            </tr>
+        </table>
+      
+    </div>
+
+    <div id="footer">
+      <span>Gemini Solutions Pvt Ltd</span><br>
+      <span>info@geminisolutions.com</span>
+  </div>
+</body>
+</html>
